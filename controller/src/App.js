@@ -12,6 +12,9 @@ const Checkboxes = ({ options, control, name }) => {
   const [value, setValue] = React.useState(field.value || []);
   return (
     <>
+    <div>
+      <label>test</label>
+    </div>
       {options.map((option, index) => (
         <input
           onChange={(e) => {
